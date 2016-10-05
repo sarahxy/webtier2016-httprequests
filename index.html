@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript and HTTP Requests Practice</title>
+
+  <link rel="stylesheet" href="assets/css/vendor/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- Javascript Sources  -->
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> 
+  <script src="assets/js/vendor/superagent.js"></script>
+  <script src="assets/js/index.js"></script>
+
+  <div class="wrapper">
+  	<div class="wrapper__section colorgenerator">
+	  	<h1>Generate a Color:</h1>
+		  <div class="rgb">
+		  	Red:
+		  	<input type="number" name="quantity" min="0" max="255" id="red"></text>
+		  </div>
+
+		  <div class="rgb">
+		  	Green:
+		  	<input type="number" name="quantity" min="0" max="255" id="green"></text>
+		  </div>
+		  
+		  <div class="rgb">
+		  	Blue:
+		  	<input type="number" name="quantity" min="0" max="255" id="blue"></text>
+		  </div>
+
+		  <div>
+		  	<button id="button1">Submit</button>
+		  </div>
+		  
+		  <div id="change_me"></div>
+	  </div>
+
+	  <div class="wrapper__section randomcolorgenerator">
+		  <h1>Random Color Generator:</h1>
+		  <div id="random">RANDOM</div>
+	  </div>
+
+	  <div class="wrapper__section contactform">
+		<h1>Send a Form:</h1>
+		<div class="contact">
+			Name:
+			<input type="text" id="name"></text>
+		</div>
+
+		  <div class="contact">
+		  	Email:
+		  	<input type="text" id="email"></text>
+		  </div>
+		  
+		  <div class="contact">
+		  	Message:
+		  	<input type="text" id="message"></text>
+		  </div>
+
+		  <div>
+		  	<button id="button2">Submit</button>
+		  </div>
+
+		  <div id="response"></div>
+	  </div>
+
+  </div>
+
+</body>
+
+</html>

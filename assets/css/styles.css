@@ -1,0 +1,54 @@
+/*
+ * Single Side
+ */
+/*
+ * Single Corner
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  position: relative;
+  padding: 0;
+  background: none; }
+
+body {
+  background: white; }
+
+.wrapper #change_me, .wrapper #random {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 35px;
+  color: white; }
+
+.wrapper input {
+  margin-bottom: 10px; }
+
+.wrapper .wrapper__section {
+  display: inline-block;
+  margin: 30px;
+  position: relative; }
+
+.wrapper .randomcolorgenerator {
+  position: absolute;
+  top: 0; }
+
+.wrapper .contactform {
+  position: absolute;
+  left: 800px; }
+  .wrapper .contactform #response {
+    text-align: center;
+    color: red;
+    margin-top: 30px; }
